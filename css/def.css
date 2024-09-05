@@ -1,0 +1,12 @@
+html{
+    box-sizing: border-box;
+    /*position: relative
+    */
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
