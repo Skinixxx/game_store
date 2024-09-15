@@ -1,22 +1,21 @@
-.poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+
+
+  @font-face { 
+    font-family: "Commissioner"; 
+
+    src: url("../fonts/Commissioner/Commissioner-VariableFont_FLAR\,VOLM\,slnt\,wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+  @font-face {
+    font-family: "Murecho";
+    src: url("../fonts/Murecho/Murecho-VariableFont_wght.ttf") format("truetype");
     font-style: normal;
-    font-display: swap;
+    font-weight: normal;
   }
-
-.poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
     font-style: normal;
-    font-display: swap;
- }
-
-.murecho {
-    font-family: "Murecho", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+    font-weight: normal;
   }
-
