@@ -6,7 +6,7 @@
 .search-form{
     width: 572px;
     height: 40px;
-    padding-left: 8px;
+    padding-left: 24px;
     
     border-radius: 5px;
     overflow: hidden;
@@ -15,44 +15,49 @@
     
     display: inline-flex;
 
+    
+
 }
-.logo-type{
-    height:87px;
-width:87px;
-left:0px;
-top:0px;
-position:absolute;
-}
+
 .logo-div{
     height:90px;
 width:92px;
-border-radius:79px;
-padding:0px;
-left:124px;
-top:20px;
-position:relative;
+
 }
 .header{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
+
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21px 126px;
     background-image:linear-gradient(0deg, rgba(70.00000342726707, 205.00000298023224, 207.00000286102295, 1) 0%,rgba(61.00000016391277, 132.0000073313713, 168.0000051856041, 1) 100%) ;
       
   }
-  .green-blue-head{
-    display: flex;
-    flex-direction: row;
 
-    
-    padding-left: 8px;
-    left: 481px;
-    top: 70px; 
-  }
+.find-search_txt::placeholder{
+    position: relative;
+    left:10px;
 
+    color: rgb(171, 237, 216);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 900;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
 .find-search_txt{
     
     background-color:rgba(255, 255, 255, 1);
+    color: rgb(171, 237, 216);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+
 	width:572px;
 	height:40px;
     outline: none;
@@ -64,6 +69,7 @@ position:relative;
 
     font-size: large;
 	
+    
 }
 .header{
     width: 100%;
@@ -83,11 +89,20 @@ position:relative;
 }
 
 .nav-menu-block{
-    display: inline-block;
+    display: flex;
+    gap: 3%;
     font-size: 20px;
+
+    font-family: Murecho;
+font-size: 20px;
+font-weight: 600;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
 }
 .button-class{
-    display: inline-block;
+    display: flex;
+    margin: 24px 0px;
 }
 .nav-batton{
     
@@ -95,9 +110,17 @@ position:relative;
     text-decoration: none;
     transition: color .2s linear;
 }
-.logo-div{
 
-}
 .nav-batton:hover{
     color:#fce38a;
+}
+.part{
+    margin: 0% 10%;
+}
+.buttons-buy{
+    padding: 0px 100px;
+    
+}
+.button-buy{
+    margin-left: 33px;
 }
