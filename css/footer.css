@@ -1,0 +1,55 @@
+footer{
+
+    position: absolute;
+    width: 100%;
+    height: 458px;
+    background: rgb(61, 132, 168);
+}
+.green-blue-footer{
+    display: flex;
+    margin: 91px 125px;
+}
+.footer-buttons{
+    display: flex;
+    flex-direction: column;
+    
+    color: rgb(255, 255, 255);
+    font-family: Murecho;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+
+    gap: 16px;
+}
+#footer-buttons1{
+    
+    
+    padding-left: 320px;
+}
+#footer-buttons2{
+    padding-left:87px;
+}
+.footer-button{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.site-descrip{
+    color: rgb(255, 255, 255);
+font-family: Murecho;
+font-size: 20px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.p-site_type{
+    display: flex;
+    padding-left: 110px;
+    flex-direction: row;
+}
