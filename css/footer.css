@@ -4,14 +4,19 @@ footer{
     width: 100%;
     height: 458px;
     background: rgb(61, 132, 168);
+    
 }
 .green-blue-footer{
     display: flex;
-    margin: 91px 125px;
+
+    padding-top: 106px;
+    padding-left: 106px;
 }
 .footer-buttons{
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    float: right;
     
     color: rgb(255, 255, 255);
     font-family: Murecho;
@@ -26,7 +31,7 @@ footer{
 #footer-buttons1{
     
     
-    padding-left: 320px;
+    padding-left: 25%;
 }
 #footer-buttons2{
     padding-left:87px;
@@ -39,7 +44,7 @@ footer{
 
 
 .site-descrip{
-    color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 font-family: Murecho;
 font-size: 20px;
 font-weight: 600;
@@ -52,4 +57,63 @@ text-align: left;
     display: flex;
     padding-left: 110px;
     flex-direction: row;
+}
+.site-link{
+    margin: 0px 8px;
+}
+
+hr{
+    border: 1px solid rgb(255, 255, 255);
+
+    position: absolute;
+    width: 88%;
+    height: 0;
+    left: 122px;
+    top: 385.5px;
+}
+/**/
+
+/**/
+.footer-under-descrip_and_buttons>p{
+    /* Интернет-магазин “ViaR”, 2024 */
+    display: flex;
+}
+.footer-under-descrip_and_buttons{
+    
+
+    position: absolute;
+    display: flex;
+    height: 24px;
+    left: 122px;
+    top: 394px;
+    
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.menu-part{
+    /* Footer Links */
+display: flex;
+position: absolute;
+justify-content: flex-end;
+width: 669px;
+height: 24px;
+left: 450%;
+
+/* Auto layout */
+
+
+gap: 12px;
+padding: 0px;
+
+
+}
+.politic{
+    display: flex;
+    color:white;
 }

@@ -17,7 +17,9 @@
     
 
 }
-
+.green-blue-head{
+    padding-left:10% ;
+}
 .logo-div{
     height:90px;
 width:92px;
@@ -25,6 +27,7 @@ width:92px;
 }
 .header{
     width: 100%;
+
     position: absolute;
     top:0;
     left:0;
@@ -36,7 +39,8 @@ width:92px;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    padding: 21px 260px;
+    padding-top: 21px ;
+    
     background-image:linear-gradient(0deg, rgba(70.00000342726707, 205.00000298023224, 207.00000286102295, 1) 0%,rgba(61.00000016391277, 132.0000073313713, 168.0000051856041, 1) 100%) ;
     
     
