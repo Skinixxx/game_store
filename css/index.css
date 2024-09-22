@@ -116,10 +116,14 @@ text-align: left;
     color:#fce38a;
 }
 .part{
-    margin-left: 10%;
+    
+    
+    margin-left: 16%;
 }
 .buttons-buy{
-    
+    position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
+   
+    right: 0;
     padding: 0px 100px;
     
 }

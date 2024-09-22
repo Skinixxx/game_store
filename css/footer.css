@@ -31,7 +31,7 @@ footer{
 #footer-buttons1{
     
     
-    padding-left: 25%;
+    padding-left: 32%;
 }
 #footer-buttons2{
     padding-left:87px;
@@ -55,8 +55,9 @@ text-align: left;
 
 .p-site_type{
     display: flex;
-    padding-left: 110px;
+    padding-left: 24%;
     flex-direction: row;
+    justify-content: space-around;
 }
 .site-link{
     margin: 0px 8px;
@@ -99,20 +100,17 @@ hr{
 .menu-part{
     /* Footer Links */
 display: flex;
-position: absolute;
-justify-content: flex-end;
 width: 669px;
-height: 24px;
-left: 450%;
-
+left: 0;
+margin-left: 120%;
 /* Auto layout */
 
 
 gap: 12px;
 padding: 0px;
 
-
 }
+
 .politic{
     display: flex;
     color:white;

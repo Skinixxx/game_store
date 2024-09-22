@@ -1,6 +1,81 @@
 main{
+    display: flex;
+    flex-direction: column;
     min-height: 100%;
     width: 100%;
     height: 2804px;
     background: white;
+}
+.circle-blue{
+    grid-column: 8;
+    grid-row: 1; 
+}
+.main-block{
+    
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    
+}
+.gamepad-div{
+    
+    z-index: 1;
+    padding-left: 60%;
+    margin-top: -34%;
+
+    
+}
+.place-and-gamepad{
+    
+}
+.circle-blue>h1{
+    display: inline;
+    font-family: Commissioner;
+    font-size: 160px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+
+    
+    z-index: 1;
+    
+}
+#first-part{
+    position: absolute;
+
+    width: 722px;
+    height: 150px;
+    left: 330px;
+    top: 233px;
+
+    background-image:linear-gradient( #46CDCF,#48466D ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#second-part{position: absolute;
+    width: 585px;
+    height: 190px;
+    left: 1050px;
+    top: 233px;
+
+    color: rgb(255, 255, 255);
+    background-image:linear-gradient( #46CDCF,#48466D);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 12px transparent ;
+
+}
+.descrip-main{
+    color: rgb(61, 132, 168);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0px;
+text-align: left;
+
+width: 491px;
+height: 102px;
+position: absolute;
+left: 367px;
+top: 432px;
 }
